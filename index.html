@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Quotes</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h1 id="title" class="text-center mb-4">Random Anime Quote</h1>
+    <p id="description" class="text-center">Following three API's, calls three data in below table.</p>
+    <div id="quoteContainer" class="text-center table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Anime</th>
+            <th>Character</th>
+            <th>Quote</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Quote details will be dynamically inserted here -->
+        </tbody>
+      </table>
+    </div>
+    <div id="buttons" class="d-flex justify-content-center">
+      <!-- Pagination buttons will be dynamically inserted here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
